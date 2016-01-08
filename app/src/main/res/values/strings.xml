@@ -1,0 +1,106 @@
+<resources>
+
+
+
+
+    <string name="tourism">Turismo</string>
+    <string name="info">Información</string>
+    <string name="about">Acerca de</string>
+    <string name="aboutText">Aplicación creada por Shara Cadavid \n\n.Esta aplicación hace parte de la evaluación de la práctica de laboratorio No 5 y 6, del curso:
+        Desarrollo de aplicaciones móviles.</string>
+
+    <string name="app_name">mioMedellín</string>
+
+
+
+
+    <string name="Cines">\tCines</string>
+    <string name="Teatros">\tTeatros</string>
+    <string name="Comida">\tComida</string>
+    <string name="Rumba">\tRumba</string>
+    <string name="Acerca">\tAcerca de...</string>
+    <string name="Sitios">\tSitios turísticos</string>
+    <string name="CineColombia">\tCine Colombia</string>
+    <string name="DesCinecolom">Este cine brinda diversión y entretenimiento sanos, mediante la distribución y exhibición de películas y la prestación de servicios
+        complementarios, en medellín puedes encontrar salas de CineColombia en los siguientes centros comerciales: \n
+        Los molinos, Oviedo, Santafé, Unicentro, Vizcaya.\n\n para comunicarte y obtener mayor información, puedes llamar al número 360 24 63</string>
+    <string name="procinal">\t\t\tProcinal</string>
+    <string name="DesProcinal">En este cine encontrarás diversidad de servicios, salas muy cómodas, precios y promociones increibles, sin duda es una excelente opcion para
+        compartir en familia, pareja y amigos. en medellín puedes encontrar salas Procinal en los siguientes centros comerciales: \n
+        monterrey, Las Americas, Florida, Puerta del norte, Mayorca, Aves maría. \n\n para comunicarte y obtener mayor información, puedes llamar al número 444 22 44.</string>
+    <string name="royal">\t\t\tRoyal Films</string>
+    <string name="DesRoyal">Este cine se caracteriza por ofrecer los precios mas bajos en boletería y confitería, tiene amplias y bonitas salas, y la atención del personal es
+    excelente, en medellín puedes encontrar salas de Royal films en los siguientes lugares: \n\n
+    Royalfilms la 65 (Jumbo de la 65), centro comercial Premiun plaza y centro comercial Bosque plaza.\n\n para comunicarte y obtener mayor información, puedes llamae al numero 605 15 87.</string>
+    <string name="ilforno">\t\t\til forno</string>
+    <string name="DesIlforno">Este restaurante proporciona una cálida atención, precios justos, porciones generosas, ambientes acogedores y excelente calidad en todos sus productos, allí se brinda
+        siempre la mejor gastronomía informal, además de un excelente servicio siendo la perfecta combinación para satisfacer las necesidades de cualquier cliente.\n
+    en medellín puedes encontrar un restaurante Il forno en los siguientes lugares:\n\n
+    San Lucas - El Poblado, Cr25 B 18 A Sur-137. Teléfono(s):3171225-4484876\n
+    Centro comercial Florida\n Avenida Las Palmas, Cl 18 35-69 L-230. Teléfono(s): (57) (4) 3520800-4484876.</string>
+    <string name="insitu">\t\t\tIn situ</string>
+    <string name="DesInsitu">Este restaurante ofrece calidad, belleza, excelente servicio y una deliciosa carta. In Situ se ha convertido en lugar obligado para quienes reciben visitantes en la ciudad. Pero igualmente,
+        la gente de Medellín también puede disfrutar de las múltiples alternativas ideadas por nuestros sus chefs, en medellín puedes encontrar el restaurante In situ en el hermoso lugar turístico de medellín,
+    conocido como Jardín Botanico. \n  Calle 73 N 51D - 14 Jardín Botánico. Teléfono: 320 85 07 - 444 5500 ext. 138</string>
+    <string name="verdeo">\t\t\tVerdeo</string>
+    <string name="Desverdeo">Este restaurante es una excelente alternativa para quienes buscan comida vegetariana y/o saludable, famoso por sus deliciosos platos orgánicos, y bien
+    proporcionados, además de servidos en un ambiente único. Sin duda es una de las mejores opciones cuando deseas cambiar la rutina de un restaurante convencional.\n
+    se encuentra ubicado en la Carrera 35 #8a -3 sector provenza / el poblado. Entrada por el parque o por el mercado orgánico Ceres, 000 Medellín, Colombia. Teléfono: 444 09 34.</string>
+    <string name="Arvi">\tParque Arví</string>
+    <string name="DesArvi">El Parque Arví es una propuesta eco turística creada para el disfrute de toda la comunidad local, nacional e internacional. Un espacio de equidad y participación ciudadana.
+    Es un parque abierto desarrollado en predios de uso público, que mediante la construcción de una oferta turística organizada, permite consolidar una estrategia de conservación y promoción
+        de las potencialidades y fortalezas del  corregimiento, exaltando su riqueza cultural y ambiental así como el patrimonio arqueológico,a través de una propuesta de turismo de naturaleza sostenible.
+    Este parque se encunetra situado en el corregimiento de Santa Elena– Vereda El Cerro (Detrás de la Institución Educativa Santa Elena)</string>
+    <string name="museo">Museo de Antioquia</string>
+    <string name="DesMuseo">El Museo de Antioquia es un museo de arte en Medellín. Este alberga una gran colección de obras de  Fernando Botero y Pedro Nel Gómez.
+    Fue el primer museo creado en el departamento de Antioquia y el segundo en Colombia. El museo está ubicado en el centro de Medellín en la Plaza Botero , cerca de la estación de metro Parque Berrío.
+    Allí se encuentra una colección de obras que se remontan al año 1954 por artistas nacionales e internacionales.
+    </string>
+    <string name="botanico">Jardín Botánico</string>
+    <string name="DesBotanico">El Jardín Botánico es un mundo pleno de naturaleza y color, ofrece múltiples servicios como diseño paisajístico, área cientifica, silvicultura
+    jardinería, recreación, educación, restaurante, alquiler de espacios, biblioteca... Es un mundo natural y mágico, un pulmón verde en medio de la ciudad, y el mejor sitio para
+    disfrutar la paz y tranquilidad de la ciudad. </string>
+    <string name="aguila">Águila descalza</string>
+    <string name="DesAguila">La sede del Águila Descalza en el tradicional barrio Prado de Medellín, es una bella mansión, que por su valor arquitectónico y programación permanente,
+        se ha convertido en referente urbano, cultural y turístico de obligatoria visita para habitantes y visitantes de la ciudad. Allí funciona el Museo Teatro Prado, edificación que cuenta con
+        terrazas, salones y galerías donde se realizan actividades artísticas, encuentros académicos y empresariales, seminarios, proyecciones audiovisuales, entre otras.\n El Museo Teatro Prado
+        está ubicado en la Carrera 45 D # 59 – 01, Cuba con Chile. Teléfono 284 4211.</string>
+    <string name="tobon">Pablo Tobón</string>
+    <string name="Destobon">Continuando con la tradición de los cafés como lugares públicos de reunión en los que desarrollaban tertulias literarias y nacían ideas para el desarrollo político y
+        cultural, este escenario de convergencia retoma la memoria histórica del Teatro y se constituye como un nuevo lugar para la diversidad y la promoción cultural en la ciudad.
+    \nEl teatro se encuentra en la  Carrera 40 № 51 - 24.</string>
+    <string name="candelas">Matacandelas</string>
+    <string name="DesCandelas">El Teatro Matacandelas se caracteriza por su insobornable falta de estilo, el tanteo con nuevos y viejos lenguajes, la carencia de un dogma, su clima de
+        exploración permanente, considerando que sobre el tablado las certezas estéticas se hayan empalidecidas por las maravillosas dudas. Es una alternativa de teatro diferente, siempre apuntanto
+    a sacar provecho de las cosas simples y profundas y los nuevos talentos.n Este teatro se encuentra ubicado en la calle 47 No. 43 - 47 (Bomboná con Girardot)</string>
+    <string name="Elblue">\tEl Blue</string>
+    <string name="DesElblue">El Blue, ubicado cerca del Parque Lleras en la Calle 10 podría ser el lugar oerfecto para usted. Este lugar, para el cual no necesitará un alto
+        presupuesto, presenta una variedad de ritmos alternativos con largos momentos de música rock y retro. Aquí escuchará de todo, desde The Clash y Rolling Stones hasta Rage
+        Against the Machine y Metallica en un misma noche, alternando con un poco de indie, pop, electro y rock colombiano en una buena medida. Además, el lugar también es escenario de algunas bandas locales.
+    \n Se encuentra ubicado en la calle 10 No. 40 – 20, El Poblado (Parque Lleras).</string>
+    <string name="babylon">\tBabylon</string>
+    <string name="Desbabylon">La disco Babylon es uno de los clubs más populares de la zona El Poblado de Medellín. Famoso por su Ladies Night de los jueves, y ahora ubicado muy cerca del Parque Lleras, este
+        lugar es uno de lo que de seguro le recomendarán cuando pregunte por una disco que debe visitar en la ciudad. Babylon es un club masivo con áreas al aire libre ubicadas en terrazas sobre las pístas de baile,
+        desde donde se puede mirar la acción de la fiesta abajo. Aparte de las máquinas de humo y las luces estrobocópicas, la decoración del club está inspirada en los filmes clásicos de los 80´s; con una predominante clientela joven.
+    \n Esta discoteca se encuentra ubicada en la carrera 41 #9-22, Parque Lleras Medellín.</string>
+    <string name="blounge">\tB Lounge</string>
+    <string name="Desblounge">Este bar es famoso por organizar conciertos con la vieja escuela de cantantes de hablahispana, tales como Yuri, Miguel Bosé o Camilo Sesto; así como también competencias de karaoke
+        con los mejores cantantes de la ciudad. En este lugar no esperes sofás cómodos y sonidos chillout. "B" es actualmente conocido como uno de los más exclusivos y de moda de la Zona Rosa. \n
+        Se encuentra ubicado en la carrera. 35 No. 10 - 38.</string>
+
+    <string name="cines">\t\t\tCines</string>
+    <string name="teatros">\t\t\tTeatros</string>
+    <string name="turismo">\t\t\tTurismo</string>
+    <string name="informacion">\t\t\tInformación</string>
+    <string name="acercade">\t\t\tAcerca de</string>
+    <string name="comida">\t\t\tRestaurantes</string>
+    <string name="rumba">\t\t\tRumba</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_arvi">Map</string>
+    <string name="title_activity_mi_posicion">Map</string>
+    <string name="title_activity_maps_botanico">Map</string>
+    <string name="title_activity_maps_museo">Map</string>
+</resources>

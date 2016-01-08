@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_marginRight="7dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="left">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/app_name"
+                android:id="@+id/fuente2"
+                android:layout_gravity="center"
+                android:layout_weight="1.04"
+                style="@style/Widget.AppCompat.Light.ActionBar.TabView.Inverse"
+                android:allowUndo="false"
+                android:autoText="false"
+                android:background="@color/customcolor1"
+                android:gravity="center_vertical|center_horizontal"
+                android:singleLine="false"
+                android:textColor="@color/limegreen"
+                android:textSize="45sp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left">
+
+            <fragment
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragmentView"
+                android:background="@color/customcolor1"
+                android:name="com.example.sharita.miomedellin.fragmentListView"
+                >
+
+            </fragment>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:background="@color/customcolor1"
+        >
+
+        <fragment
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/fragmentDetail"
+            android:name="com.example.sharita.miomedellin.fragmentDetalle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

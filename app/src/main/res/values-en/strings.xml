@@ -1,0 +1,103 @@
+<resources>
+
+
+
+
+    <string name="tourism">Turism</string>
+    <string name="info">Information</string>
+    <string name="about">About us...</string>
+    <string name="aboutText">Application created by Shara Cadavid \n \n.Esta application It is part of the Evaluation Lab No 5 and 6 of the Course :
+Mobile Application Development.</string>
+
+    <string name="app_name">medellinMine</string>
+
+
+
+
+    <string name="Cines">\tCinema</string>
+    <string name="Teatros">\tTheaters</string>
+    <string name="Comida">\tRestaurants</string>
+    <string name="Rumba">\tBars</string>
+    <string name="Acerca">\tAbout us...</string>
+    <string name="Sitios">\tTouristic places</string>
+    <string name="CineColombia">\tCine Colombia</string>
+    <string name="DesCinecolom">This cinema provides fun and wholesome entertainment, through the distribution and exhibition of movies and the provision of services
+Complementary in Medellin CineColombia can find rooms in the Following Malls: \n
+        Los molinos, Oviedo, Santafé, Unicentro, Vizcaya.\n\n for more information, call to 360 24 63</string>
+    <string name="procinal">\t\t\tProcinal</string>
+    <string name="DesProcinal">In this cinema you will find diversity of services, comfortable rooms , incredible prices and promotions, it is certainly an excellent choice for
+        with your family, partner and friends . Medellin Procinal rooms you can find in the following shopping centers: \n
+        monterrey, Las Americas, Florida, Puerta del norte, Mayorca, Aves maría. \n\n for more information, call to 444 22 44.</string>
+    <string name="royal">\t\t\tRoyal Films</string>
+    <string name="DesRoyal">This cinema is characterized by offering the lowest prices in ticketing and confectionery, it has beautiful spacious rooms , and the staff´s attention is
+    excellent in Medellin you can find rooms Royal films in the following locations : \n\n
+    Royalfilms la 65 (Jumbo de la 65), Premiun plaza mall and Bosque plaza mall. for more information, call to 605 15 87.</string>
+    <string name="ilforno">\t\t\til forno</string>
+    <string name="DesIlforno">This restaurant provides a warm service , fair prices , generous portions, welcoming environments and excellent quality in all its products, there is provided
+        always the best casual dining , plus an excellent service to be the perfect combination to meet the needs of any client. \n
+    Medellin you can find a restaurant Il Forno in the following locations :\n\n
+    San Lucas - El Poblado, Cr25 B 18 A Sur-137. Telephone(s):3171225-4484876\n
+    Florida mall\n Palmas Avenue, Cl 18 35-69 L-230. Telephone(s): (57) (4) 3520800-4484876.</string>
+    <string name="insitu">\t\t\tIn situ</string>
+    <string name="DesInsitu">This restaurant offers quality, beauty , excellent service and a delicious menu . In Situ it has become a must for visitors who receive the city. But equally ,
+        Medellin people can also enjoy the many alternatives devised by our chefs in Medellin can find on-site restaurant in the beautiful tourist spot of Medellin ,
+    known as Botanical Garden. \n  street 73 N 51D - 14 Botanical garden. Telephone(s): 320 85 07 - 444 5500 ext. 138</string>
+    <string name="verdeo">\t\t\tVerdeo</string>
+    <string name="Desverdeo">This restaurant is an excellent choice for those looking vegetarian and / or healthy , famous for its delicious organic dishes , and well
+    provided , well served in a unique atmosphere. Definitely one of the best options when you want to change the routine of a conventional restaurant. \n
+    It is located at Carrera 35 #8a -3 provenza / el poblado. Entrance to the park or the organic market Ceres, 000 Medellín. Telephone: 444 09 34.</string>
+    <string name="Arvi">\t Arví Park</string>
+    <string name="DesArvi">Arvi Park is an eco tourist proposal created for the enjoyment of all the local , national and international community . An area of ​​equity and citizen participation.
+    It is an open park developed land for public use , which by building an organized tourism , consolidates a conservation strategy and promotion
+        the potentials and strengths of the township , extolling its cultural and environmental wealth and archaeological heritage , through a proposal for sustainable nature tourism .
+    Encunetra this park located in the village of Santa Elena Vereda El Cerro ( Back of School Santa Elena)</string>
+    <string name="museo">Antioquia Museum</string>
+    <string name="DesMuseo">Antioquia Museum is an art museum in Medellin. It houses a large collection of works by Fernando Botero and Pedro Nel Gómez .
+    It was the first museum created in the department of Antioquia and the second in Colombia . The museum is located in downtown Medellin Plaza Botero , near the Metro station Parque Berrio .
+    There is a collection of works dating back to 1954 by national and international artists .
+    </string>
+    <string name="botanico">Botanical Garden</string>
+    <string name="DesBotanico">Botanical Garden is a world full of nature and color, offers many services such as landscape design , scientific area , forestry
+    gardening , recreation, education , restaurant , car spaces , a library ... it is a natural and magical world , a green lung in the middle of the city, and the best place to
+    enjoy the peace and tranquility of the city . </string>
+    <string name="aguila">Águila descalza</string>
+    <string name="DesAguila">The seat in the traditional Prado neighborhood of Medellin , is a beautiful mansion that its architectural value and permanent programming
+It has become urban , cultural and tourist reference must see paragraph inhabitants and visitors of the city. Alli works by the Theatre Museum Prado, building that has
+terraces, lounges and galleries where artistic, academic and business meetings seminars , audiovisual projections are made , among others. It is located at 45 D # 59 – 01, Cuba con Chile. Teléfono 284 4211.</string>
+    <string name="tobon">Pablo Tobón</string>
+    <string name="Destobon">Continuing the tradition of the cafes as public meeting places where they were born and developed literary gatherings ideas for policy development and
+        cultural convergence scenario takes this historical memory of the theater and was established as a new place for diversity and cultural promotion in the city.
+    \nThe theater is in the  Carrera 40 № 51 - 24.</string>
+    <string name="candelas">Matacandelas</string>
+    <string name="DesCandelas">
+Matacandelas Theatre is known for its uncompromising lack of style , scoring with new and old languages, the lack of a dogma , its climate
+        ongoing exploration , considering that on the stage aesthetic certainties have empalidecidas for the wonderful doubts. It is a different alternative theater, always apuntanto
+    to take advantage of the simple and profound things and new talentos.\n This theater is located in the street 47 No. 43 - 47 (Bomboná con Girardot)</string>
+    <string name="Elblue">\tEl Blue</string>
+    <string name="DesElblue">The Blue , located near the Parque Lleras on 10th Street oerfecto could be the place for you. This place , for which there is a high need
+        budget, presents a variety of alternative rhythms with long moments of rock and retro music. Here you will hear everything from The Clash and Rolling Stones to Rage
+        Against the Machine and Metallica in the night, alternating with a little indie , pop , electro and Colombian rock in for good measure . Also, the place is also the scene of some local bands.
+    \n It it is located in the street 10 No. 40 – 20, El Poblado (Lleras Park).</string>
+    <string name="babylon">\tBabylon</string>
+    <string name="Desbabylon">The Babylon drive is one of the most popular clubs in the area El Poblado in Medellin. Famous for its Ladies Night on Thursdays, and now located near the Parque Lleras , this
+        place is one of what insurance will recommend when prompted for a disk to visit in the city . Babylon is a massive club with outdoor areas located on terraces on the dance floor ,
+        from where you can watch the action of the party downstairs . Besides smoke machines and lights estrobocópicas , club decoration is inspired by the classic films of the 80s ; with a predominantly young clientele.
+    \n This nightclub is located in the carrera 41 #9-22, Lleras Park.</string>
+    <string name="blounge">\tB Lounge</string>
+    <string name="Desblounge">
+This bar is famous for organizing concerts with the old school hablahispana singers such as Yuri , Miguel Bosé or Camilo Sesto ; as well as karaoke competitions
+        with the best singers in the city. In this place not expect comfortable sofas and chillout sounds. "B " is now known as one of the most exclusive and trendy Zona Rosa. \n
+        It is located in the race. 35 No. 10 - 38.</string>
+
+    <string name="cines">\t\t\tCinemas</string>
+    <string name="teatros">\t\t\tTeathers</string>
+    <string name="turismo">\t\t\tTurism</string>
+    <string name="informacion">\t\t\tInformation</string>
+    <string name="acercade">\t\t\tAbout us...</string>
+    <string name="comida">\t\t\tRestaurants</string>
+    <string name="rumba">\t\t\tDisco</string>
+    <string name="action_settings">Configuration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

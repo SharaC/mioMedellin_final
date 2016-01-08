@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity"
+    >
+
+    <item android:id="@+id/cine"
+        android:title="@string/Cines"
+        android:orderInCategory="100"
+
+        app:showAsAction="never" />
+
+    <item android:id="@+id/teatro"
+        android:title="@string/Teatros"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/comida"
+        android:title="@string/Comida"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/rumba"
+        android:title="@string/Rumba"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/sitios"
+        android:title="@string/Sitios"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about"
+        android:title="@string/Acerca"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    
+
+</menu>
