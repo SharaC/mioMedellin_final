@@ -38,14 +38,26 @@
         <LinearLayout
             style="@style/layout2">
             <LinearLayout
+
                 style="@style/layout3"
                 android:gravity="right">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/blue"
+                    >
                 <Button
+                    android:layout_margin="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Ver mi ubicación actual"
                     android:onClick="abrirUbicacion"
+                    android:background="@color/limegreen"
                     android:id="@+id/button" />
+                </LinearLayout>
+
             </LinearLayout>
             <LinearLayout
                 style="@style/layout4">
@@ -65,6 +77,7 @@
             </LinearLayout>
             <LinearLayout
                 style="@style/layout6">
+
                 <ImageView
                     style="@style/imgDesc"
                     android:src="@drawable/arviopt"/>
@@ -72,12 +85,21 @@
                     style="@style/imgDesc"
                     android:src="@drawable/cablearvopt"/>
             </LinearLayout>
-            <Button
-                android:layout_gravity="center"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ver ubicación-Mapa"
-                android:onClick="abrirArvi"/>
+                android:background="@color/blue"
+                android:layout_gravity="center">
+                <Button
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ver ubicación-Mapa"
+                    android:background="@color/gray"
+                    android:onClick="abrirArvi"/>
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -115,12 +137,21 @@
                     style="@style/imgDesc"
                     android:src="@drawable/museoopt"/>
             </LinearLayout>
-            <Button
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ver ubicación-mapa"
                 android:layout_gravity="center"
-                android:onClick="abrirMuseo"/>
+                android:background="@color/blue">
+                <Button
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ver ubicación-Mapa"
+                    android:background="@color/gray"
+                    android:onClick="abrirMuseo"/>
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
@@ -154,12 +185,20 @@
                     style="@style/imgDesc"
                     android:src="@drawable/jardinbotanicopt"/>
             </LinearLayout>
-            <Button
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ver ubicación-mapa"
                 android:layout_gravity="center"
+                android:background="@color/blue">
+                <Button
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ver ubicación-Mapa"
+                    android:background="@color/gray"
                 android:onClick="abrirBotanico"/>
+                </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
