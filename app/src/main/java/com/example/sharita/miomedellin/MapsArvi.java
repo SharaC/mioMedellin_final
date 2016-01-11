@@ -101,7 +101,6 @@ public class MapsArvi extends FragmentActivity implements OnMapReadyCallback {
         if (location!= null){
             lat = location.getLatitude();
             lon= location.getLongitude();
-            data.setText(lat+"/"+lon+new java.util.Date(System.currentTimeMillis()).toString());
 
         }
     }

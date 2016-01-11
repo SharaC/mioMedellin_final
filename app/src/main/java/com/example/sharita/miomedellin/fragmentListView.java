@@ -77,34 +77,36 @@ public class fragmentListView extends ListFragment {
 
                 case 0:
 
-                    fragmentCines fCines = new fragmentCines();
-                    fragmentTransaction.replace(R.id.fragmentDetail, fCines);
+                    fragmentComida fComida = new fragmentComida();
+                    fragmentTransaction.replace(R.id.fragmentDetail, fComida);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
 
                 case 1:
 
+                    fragmentCines fCines = new fragmentCines();
+                    fragmentTransaction.replace(R.id.fragmentDetail, fCines);
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
+                    break;
+                case 2:
                     fragmentTeatro fTeatro = new fragmentTeatro();
                     fragmentTransaction.replace(R.id.fragmentDetail, fTeatro);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
-                case 2:
-                    fragmentComida fComida = new fragmentComida();
-                    fragmentTransaction.replace(R.id.fragmentDetail, fComida);
-                    fragmentTransaction.addToBackStack(null);
-                    fragmentTransaction.commit();
-                    break;
                 case 3:
-                    fragmentRumba fRumba = new fragmentRumba();
-                    fragmentTransaction.replace(R.id.fragmentDetail, fRumba);
+
+                    fragmentSitios fSitios = new fragmentSitios();
+                    fragmentTransaction.replace(R.id.fragmentDetail, fSitios);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
                 case 4:
-                    fragmentSitios fSitios = new fragmentSitios();
-                    fragmentTransaction.replace(R.id.fragmentDetail, fSitios);
+
+                    fragmentRumba fRumba = new fragmentRumba();
+                    fragmentTransaction.replace(R.id.fragmentDetail, fRumba);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
@@ -117,32 +119,33 @@ public class fragmentListView extends ListFragment {
             fragmentDetalle fdetalle =new fragmentDetalle();
             switch (index) {
                 case 0:
-                    fragmentCines fCines = new fragmentCines();
-                    fragmentTransaction.replace(android.R.id.content, fCines);
-                    fragmentTransaction.addToBackStack(null);
-                    fragmentTransaction.commit();
-                    break;
-                case 1:
-                    fragmentTeatro fTeatro = new fragmentTeatro();
-                    fragmentTransaction.replace(android.R.id.content, fTeatro);
-                    fragmentTransaction.addToBackStack(null);
-                    fragmentTransaction.commit();
-                    break;
-                case 2:
                     fragmentComida fComida = new fragmentComida();
                     fragmentTransaction.replace(android.R.id.content, fComida);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
+                case 1:
+
+                    fragmentCines fCines = new fragmentCines();
+                    fragmentTransaction.replace(android.R.id.content, fCines);
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
+                    break;
+                case 2:
+                    fragmentTeatro fTeatro = new fragmentTeatro();
+                    fragmentTransaction.replace(android.R.id.content, fTeatro);
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
+                    break;
                 case 3:
-                    fragmentRumba fRumba = new fragmentRumba();
-                    fragmentTransaction.replace(android.R.id.content, fRumba);
+                    fragmentSitios fSitios = new fragmentSitios();
+                    fragmentTransaction.replace(android.R.id.content, fSitios);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
                 case 4:
-                    fragmentSitios fSitios= new fragmentSitios();
-                    fragmentTransaction.replace(android.R.id.content, fSitios);
+                    fragmentRumba fRumba= new fragmentRumba();
+                    fragmentTransaction.replace(android.R.id.content, fRumba);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
                     break;
@@ -158,8 +161,8 @@ public class fragmentListView extends ListFragment {
     public void onCreate(Bundle savedInstanceState) {
         //Drawable[] Iconos= {getResources().getDrawable(R.drawable.i), getResources().getDrawable(R.drawable.i), getResources().getDrawable(R.drawable.i)};
 
-        String[] item = {getResources().getString(R.string.cines), getResources().getString(R.string.teatros),getResources().getString(R.string.comida),getResources().getString(R.string.rumba),
-                getResources().getString(R.string.turismo)};
+        String[] item = {getResources().getString(R.string.comida), getResources().getString(R.string.cines),getResources().getString(R.string.teatros),getResources().getString(R.string.turismo),
+                getResources().getString(R.string.rumba)};
 
 
         // TODO Auto-generated method stub

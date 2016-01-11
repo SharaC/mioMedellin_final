@@ -101,7 +101,7 @@ public class MapsMuseo extends FragmentActivity implements OnMapReadyCallback {
         if (location!= null){
             lat = location.getLatitude();
             lon= location.getLongitude();
-            data.setText(lat+"/"+lon+new java.util.Date(System.currentTimeMillis()).toString());
+
 
         }
     }
@@ -124,8 +124,10 @@ public class MapsMuseo extends FragmentActivity implements OnMapReadyCallback {
         LatLng museo = new LatLng(6.2521817, -75.569335);
         // mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker in nowhere").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
         setmMarker(museo,"Museo de Antioquia","Sitio Turístico");
+
         mcam= CameraUpdateFactory.newLatLngZoom(museo,17);
         mMap.animateCamera(mcam);
+        MarkerOptions marker = new MarkerOptions();
         // mMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(0,0)));
     }
 

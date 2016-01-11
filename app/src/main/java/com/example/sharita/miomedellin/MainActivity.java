@@ -79,12 +79,7 @@ public class MainActivity extends ActionBarActivity {
             fragmentTransaction.commit();
         }
 
-        if (id==R.id.rumba){
-            fragmentRumba frumba = new fragmentRumba();
-            fragmentTransaction.replace(android.R.id.content,frumba);
-            fragmentTransaction.addToBackStack(null);
-            fragmentTransaction.commit();
-        }
+
 
         if (id==R.id.sitios){
             fragmentSitios fsitios = new fragmentSitios();
@@ -99,8 +94,12 @@ public class MainActivity extends ActionBarActivity {
             fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
         }
-
-
+        if (id==R.id.rumba){
+            fragmentRumba frumba = new fragmentRumba();
+            fragmentTransaction.replace(android.R.id.content,frumba);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
+        }
 
         return super.onOptionsItemSelected(item);
     }

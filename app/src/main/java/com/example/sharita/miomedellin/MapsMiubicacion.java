@@ -27,13 +27,8 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsMiubicacion extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private CameraUpdate mcam;
 
     public TextView data;
-    public EditText latitud;
-    public EditText longitud;
-    public Button bActualiza;
-    public Button bActual;
 
     public double lat;
     public  double lon;
@@ -54,61 +49,19 @@ public class MapsMiubicacion extends FragmentActivity implements OnMapReadyCallb
 
 
 
-        locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
-        LocationListener locationListener = new LocationListener() {
-            @Override
-            public void onLocationChanged(Location location) {
-                updatePosition(location);
-            }
-
-            @Override
-            public void onStatusChanged(String provider, int status, Bundle extras) {
-
-            }
-
-            @Override
-            public void onProviderEnabled(String provider) {
-
-            }
-
-            @Override
-            public void onProviderDisabled(String provider) {
-
-            }
-        };
-
-        locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, locationListener);
-    }
-
-    public void click(View v) {
-        Toast.makeText(getApplicationContext(), "Actualizado", Toast.LENGTH_SHORT).show();
-        updatePosition();
-    }
-
-    public void ir (View v){
-        lat= Double.parseDouble(latitud.getText().toString());
-        lon= Double.parseDouble(longitud.getText().toString());
-        setmMarker(new LatLng(lat,lon),"udea","alma mater");
-        mcam = CameraUpdateFactory.newLatLngZoom(new LatLng(lat,lon),15);
-        mMap.animateCamera(mcam);
 
     }
 
 
-    public void updatePosition() {
 
-        Location loc = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
-        updatePosition(loc);
-    }
 
-    public void updatePosition(Location location){
-        if (location!= null){
-            lat = location.getLatitude();
-            lon= location.getLongitude();
-            data.setText(lat+"/"+lon+new java.util.Date(System.currentTimeMillis()).toString());
 
-        }
-    }
+
+
+
+
+
+
 
 
     /**
